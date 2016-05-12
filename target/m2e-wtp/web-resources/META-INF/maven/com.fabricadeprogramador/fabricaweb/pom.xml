@@ -9,6 +9,13 @@
 	<name>Fabricaweb Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+
+		<dependency>
+			<groupId>PostgreSQL</groupId>
+			<artifactId>PostgreSQL</artifactId>
+			<version>9.1-901-3.jdbc4</version>
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -23,9 +30,9 @@
 		</dependency>
 
 	</dependencies>
-	
-	
-	<!-- 	Altera a versao do JRE -->
+
+
+	<!-- Altera a versao do JRE -->
 	<build>
 		<finalName>fabricaweb</finalName>
 		<plugins>
