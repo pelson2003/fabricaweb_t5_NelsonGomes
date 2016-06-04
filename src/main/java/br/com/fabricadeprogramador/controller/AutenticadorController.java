@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
 import br.com.fabricadeprogramador.persistencia.entidade.Usuario;
 import br.com.fabricadeprogramador.persistencia.jdbc.UsuarioDAO;
 
+@SuppressWarnings("serial")
 @WebServlet("/autenticador.do")
 public class AutenticadorController extends HttpServlet{
 

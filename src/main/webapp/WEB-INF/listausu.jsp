@@ -1,3 +1,4 @@
+<%@page import="org.eclipse.jdt.internal.compiler.ast.InstanceOfExpression"%>
 <%@page
 	import="br.com.fabricadeprogramador.persistencia.entidade.Usuario"%>
 <%@page import="java.util.List"%>
@@ -31,9 +32,15 @@
 
 	<br>
 	<br>
-
+	
+	
+	
+	<%! @SuppressWarnings("unchecked") %>
 	<%
+		
+		
 		List<Usuario> lista = (List<Usuario>) request.getAttribute("lista");
+		
 	%>
 
 	<table border="1">
